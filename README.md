@@ -1,5 +1,7 @@
 # task.airat.top
 
+[![task.airat.top](https://repository-images.githubusercontent.com/1192079686/dd1f0633-9a18-46a5-aa6c-65964e3d57fa)](https://task.airat.top/)
+
 Smart, local-first task manager with AI-assisted tagging and task decomposition.
 
 - Live site: https://task.airat.top
