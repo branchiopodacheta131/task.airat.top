@@ -1,0 +1,5 @@
+{
+  "name": "Task.Airat.Top",
+  "description": "A smart, AI-powered personal task manager with local storage and task decomposition.",
+  "requestFramePermissions": []
+}

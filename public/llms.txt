@@ -1,0 +1,16 @@
+# Task.Airat.Top
+
+A smart, AI-powered personal task manager with local storage and task decomposition.
+
+## Key Features
+- AI Smart Tagging (Gemini AI)
+- AI Task Decomposition
+- Local Storage (Privacy-first)
+- Light/Dark Mode
+- Responsive Design
+
+## Links
+- Live: https://task.airat.top
+- GitHub: https://github.com/AiratTop/task.airat.top
+- Author: https://airat.top
+- Email: mail@airat.top
