@@ -494,17 +494,17 @@ export default function App() {
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-xs font-medium uppercase tracking-widest text-muted-foreground/60 mb-10">
-              <a href="https://airat.top" className="hover:text-primary transition-colors">Airat.Top</a>
-              <a href="https://github.com/AiratTop/task.airat.top" className="hover:text-primary transition-colors">GitHub</a>
-              <a href="https://status.airat.top" className="hover:text-primary transition-colors">Status</a>
-              <a href="https://privacy.airat.top" className="hover:text-primary transition-colors">Privacy</a>
-              <a href="https://terms.airat.top" className="hover:text-primary transition-colors">Terms</a>
+              <a href="https://airat.top" className="hover:text-primary transition-colors" target="_blank" rel="author">Airat.Top</a>
+              <a href="https://github.com/AiratTop/task.airat.top" className="hover:text-primary transition-colors" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://status.airat.top" className="hover:text-primary transition-colors" target="_blank" rel="noreferrer">Status</a>
+              <a href="https://privacy.airat.top" className="hover:text-primary transition-colors" target="_blank" rel="noreferrer privacy-policy">Privacy</a>
+              <a href="https://terms.airat.top" className="hover:text-primary transition-colors" target="_blank" rel="noreferrer terms-of-service">Terms</a>
             </div>
 
             <div className="w-full max-w-xs h-px bg-gradient-to-r from-transparent via-border to-transparent mb-8" />
 
             <p className="text-xs text-muted-foreground/50 font-mono">
-              © 2026 <a href="https://airat.top" className="hover:text-primary transition-colors underline underline-offset-4 decoration-border/50">Airat.Top</a>
+              © 2026 <a href="https://airat.top" className="hover:text-primary transition-colors underline underline-offset-4 decoration-border/50" target="_blank" rel="author">Airat.Top</a>
             </p>
           </div>
         </div>
