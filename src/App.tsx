@@ -31,6 +31,9 @@ const SETTINGS_KEY = "airat_settings_v1";
 export default function App() {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [settings, setSettings] = useState<AppSettings>({ theme: "system" });
+  const [resolvedTheme, setResolvedTheme] = useState<"light" | "dark">(() =>
+    window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
+  );
   const [newTaskTitle, setNewTaskTitle] = useState("");
   const [filter, setFilter] = useState<FilterType>("all");
   const [searchQuery, setSearchQuery] = useState("");
@@ -72,6 +75,7 @@ export default function App() {
       
       root.classList.remove("light", "dark");
       root.classList.add(activeTheme);
+      setResolvedTheme(activeTheme);
     };
 
     applyTheme();
@@ -235,11 +239,16 @@ export default function App() {
 
           <div className="flex items-center gap-2">
             <button 
-              onClick={() => setSettings(s => ({ ...s, theme: s.theme === "dark" ? "light" : "dark" }))}
+              onClick={() =>
+                setSettings((s) => ({
+                  ...s,
+                  theme: (s.theme === "system" ? resolvedTheme : s.theme) === "dark" ? "light" : "dark",
+                }))
+              }
               className="p-2 rounded-full hover:bg-muted transition-colors"
               title="Toggle Theme"
             >
-              {settings.theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+              {resolvedTheme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </button>
             <a 
               href="https://github.com/AiratTop/task.airat.top" 
